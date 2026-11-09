@@ -1,0 +1,346 @@
+{
+  "project": "LOWEN V3 original offline site",
+  "original_zip": "LOWEN-V3-Offline-Direct-Open (1).zip",
+  "inputs_total": 27,
+  "unique_photos": 24,
+  "duplicates": [
+    {
+      "original": "WhatsApp Image 2026-10-27 at 11.01.58(1).jpeg",
+      "duplicate": "WhatsApp Image 2026-10-27 at 11.01.58.jpeg",
+      "sha256": "ea5bceae9ddc61372189cc799ef6b526075a9d32d0c5be909e1a027eac5365c2"
+    },
+    {
+      "original": "WhatsApp Image 2026-10-27 at 11.01.59(1).jpeg",
+      "duplicate": "WhatsApp Image 2026-10-27 at 11.01.59.jpeg",
+      "sha256": "46a88778c5e7dc638b4603a9ba315d474b861dafabee448ccdb7f7447df3e41d"
+    },
+    {
+      "original": "WhatsApp Image 2026-10-27 at 11.02.43(1).jpeg",
+      "duplicate": "WhatsApp Image 2026-10-27 at 11.02.43.jpeg",
+      "sha256": "d116ba1411eadf486b19f22e35cdecdbf935c50e95690dda4e6b4d12889ad8a6"
+    }
+  ],
+  "hero_product_photo_ids": {
+    "lilac": "P01",
+    "pink": "P04",
+    "aqua": "P11",
+    "ivory": "P21"
+  },
+  "editorial_photo_id": "P13",
+  "gallery_photo_ids": [
+    "P02",
+    "P03",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P12",
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P22",
+    "P23",
+    "P24"
+  ],
+  "pet_scene_assets": [
+    {
+      "path": "assets/hero-bond.webp",
+      "collar_edit_bbox_xyxy": [
+        85,
+        842,
+        582,
+        1350
+      ],
+      "pet_outside_region_base": "original archive image"
+    },
+    {
+      "path": "assets/white-crystal-cat.webp",
+      "collar_edit_bbox_xyxy": [
+        132,
+        693,
+        964,
+        1210
+      ],
+      "pet_outside_region_base": "original archive image"
+    },
+    {
+      "path": "assets/lilac-garden-cat.webp",
+      "collar_edit_bbox_xyxy": [
+        30,
+        488,
+        490,
+        806
+      ],
+      "pet_outside_region_base": "original archive image"
+    },
+    {
+      "path": "assets/amethyst-royal.webp",
+      "collar_edit_bbox_xyxy": [
+        106,
+        437,
+        466,
+        740
+      ],
+      "pet_outside_region_base": "original archive image"
+    },
+    {
+      "path": "assets/sleeping-guardian.webp",
+      "collar_edit_bbox_xyxy": [
+        397,
+        605,
+        620,
+        953
+      ],
+      "pet_outside_region_base": "original archive image"
+    }
+  ],
+  "note": "No claim of 26 distinct unique photos: 27 uploads contain 3 duplicate byte-pairs, giving 24 unique.",
+  "photos": [
+    {
+      "id": "P01",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.36.jpeg",
+      "asset_path": "assets/real-products/P01.jpg",
+      "sha256": "ae75e5b5da8b7ba032ee9b08d3591f1ff57477f7786b2ebd55eceb02945bc16a",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P02",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.37.jpeg",
+      "asset_path": "assets/real-products/P02.jpg",
+      "sha256": "929ac726e73ab50dac6b4c9f3bb7a7ee80a79c04930ed7de6a3ce8aec007ed71",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P03",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.38.jpeg",
+      "asset_path": "assets/real-products/P03.jpg",
+      "sha256": "a73478a5321869f26c080fa149aee5e117bd0992fee987780592c6b8438da66c",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P04",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.39.jpeg",
+      "asset_path": "assets/real-products/P04.jpg",
+      "sha256": "e62c4e3241a7218ecdd2f4d80380da99272ff5aac146bc7c258f972a7615ba96",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P05",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.40.jpeg",
+      "asset_path": "assets/real-products/P05.jpg",
+      "sha256": "940ca7fd20979f9954bcf8c79220be8822112fbbbf4586242d144807e7ec409b",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P06",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.41.jpeg",
+      "asset_path": "assets/real-products/P06.jpg",
+      "sha256": "958ab8eb3bcd38eb2be3214dc58418da220d97896bc5d84d8e4206ef47b072b1",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P07",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.43.jpeg",
+      "asset_path": "assets/real-products/P07.jpg",
+      "sha256": "39fed7158abb1b5413f7e29325dc67402b116d66f2d646066000a3117860bacf",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P08",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.45.jpeg",
+      "asset_path": "assets/real-products/P08.jpg",
+      "sha256": "d15f2d95785a60152eab834e18a7bc4897c8f56756018764a56fbd3cbf5c35b2",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P09",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.46.jpeg",
+      "asset_path": "assets/real-products/P09.jpg",
+      "sha256": "1f5012ac096016f58ab1044335fb08296e28c5d2add8cf3ddaecea4fc784873f",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P10",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.47.jpeg",
+      "asset_path": "assets/real-products/P10.jpg",
+      "sha256": "dc293165500fd5fcbb46287946abadf69d757f5f777c5f710ed108069d19a737",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P11",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.48.jpeg",
+      "asset_path": "assets/real-products/P11.jpg",
+      "sha256": "5656941ca4a146915e8f6d9bf2372267ab16eb8d7437bb1543a1982741321740",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P12",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.49.jpeg",
+      "asset_path": "assets/real-products/P12.jpg",
+      "sha256": "427b2ecc4e058be8fc4e4068fa2b024bdfa4e383f3d9a5b5f3d7c2b71e3f785a",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P13",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.52.jpeg",
+      "asset_path": "assets/real-products/P13.jpg",
+      "sha256": "0089311173a0a2649b567e10e3e94db97e6ef8692448b17a6ad2f631f181db3d",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P14",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.56.jpeg",
+      "asset_path": "assets/real-products/P14.jpg",
+      "sha256": "456874823d0bf6f95a7442f9f6919fb5e5a0c4f66487164b92a0ff619b7df5b5",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P15",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.57.jpeg",
+      "asset_path": "assets/real-products/P15.jpg",
+      "sha256": "2f78b20245c497bb13286ebfc785ad308e2012a442c49c48d1c5a83790fe8c45",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P16",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.58(1).jpeg",
+      "asset_path": "assets/real-products/P16.jpg",
+      "sha256": "ea5bceae9ddc61372189cc799ef6b526075a9d32d0c5be909e1a027eac5365c2",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P17",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.01.59(1).jpeg",
+      "asset_path": "assets/real-products/P17.jpg",
+      "sha256": "46a88778c5e7dc638b4603a9ba315d474b861dafabee448ccdb7f7447df3e41d",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P18",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.02.00.jpeg",
+      "asset_path": "assets/real-products/P18.jpg",
+      "sha256": "8519460a802f7302978802c5912cc0e7f8645995396abcae08602ce0afde84b4",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P19",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.02.01.jpeg",
+      "asset_path": "assets/real-products/P19.jpg",
+      "sha256": "c0e0609dd87e0045f03c3333e08c5a949b3eac6ac1e933e0b1e44c169a1ea9ae",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P20",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.02.03.jpeg",
+      "asset_path": "assets/real-products/P20.jpg",
+      "sha256": "2281cf00b9a1478302431e1ade06734daf97f03f7aab310c356279e182345e2e",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P21",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.02.43(1).jpeg",
+      "asset_path": "assets/real-products/P21.jpg",
+      "sha256": "d116ba1411eadf486b19f22e35cdecdbf935c50e95690dda4e6b4d12889ad8a6",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P22",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.02.45.jpeg",
+      "asset_path": "assets/real-products/P22.jpg",
+      "sha256": "949250c8db602080f03b07821a012ca08c09975a6f25bc2663d8ed4640c0d808",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P23",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.02.46.jpeg",
+      "asset_path": "assets/real-products/P23.jpg",
+      "sha256": "826a29823ed486e1fec2a7c73394bf6aac1c678626e30bd225cd36bb745ace6f",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "id": "P24",
+      "original_filename": "WhatsApp Image 2026-10-27 at 11.02.47.jpeg",
+      "asset_path": "assets/real-products/P24.jpg",
+      "sha256": "0e78131e0acb96fdca8f396d27f02c6f5557f68b9f50f362bd37c8b2d4f70a38",
+      "image_dimensions": [
+        1280,
+        720
+      ]
+    }
+  ]
+}

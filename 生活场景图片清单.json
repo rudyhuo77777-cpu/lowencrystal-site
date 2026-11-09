@@ -1,0 +1,70 @@
+{
+  "editorial_assets": [
+    {
+      "file": "assets/editorial/01-heart-at-home.webp",
+      "source": "金色暖光下的温柔相拥.png",
+      "pet": "dog",
+      "title": "Close at home",
+      "source_sha256": "90f66368e38f63ca75c661e076759c30cb6577c8baf977b273eca402c7391345"
+    },
+    {
+      "file": "assets/editorial/02-weekend-walk.webp",
+      "source": "春日花径与爱犬漫步.png",
+      "pet": "dog",
+      "title": "Every walk, together",
+      "source_sha256": "de026725ca96e74333053df08467c744823979d989cb215b5896ed55c81f640f"
+    },
+    {
+      "file": "assets/editorial/03-window-light.webp",
+      "source": "奢华粉调客厅里的优雅布偶猫.png",
+      "pet": "cat",
+      "title": "Light-filled afternoons",
+      "source_sha256": "05cf5ebfc5e0b14565e7ea33f3cfcb753604821045cf2ffafdf47ae556ddef70"
+    },
+    {
+      "file": "assets/editorial/04-coffee-companion.webp",
+      "source": "阳光咖啡馆里的蓝色项圈小腊肠.png",
+      "pet": "dog",
+      "title": "A seat beside you",
+      "source_sha256": "0fdf85328b0e95d09d9a6468528089ad7afc73b8ba0707e00b182901e3a4f9c2"
+    },
+    {
+      "file": "assets/editorial/05-quiet-corner.webp",
+      "source": "阳光下的华丽布偶猫.png",
+      "pet": "cat",
+      "title": "Quiet, beautiful afternoons",
+      "source_sha256": "ed944133d53bca591861c65e41f63f7be8cefde4af28b86b3dd159a99ef42dd0"
+    },
+    {
+      "file": "assets/editorial/06-gift-day.webp",
+      "source": "奢华礼遇中的巧克力腊肠犬.png",
+      "pet": "dog",
+      "title": "The feeling of gifting",
+      "source_sha256": "c9468c95b381dee3d989c77c9be92dc65f02329aef3960094cfb5b5effdc6a4d"
+    },
+    {
+      "file": "assets/editorial/07-close-bond.webp",
+      "source": "温馨奢华的金饰项圈猫咪拥抱_portrait.png",
+      "pet": "cat",
+      "title": "The ones we come home to",
+      "source_sha256": "26b4349c6bfdb0c641a6caff1cb7aa9a5fd781b34f964732f49898d0a2eb6ea6"
+    },
+    {
+      "file": "assets/editorial/08-soft-light.webp",
+      "source": "奢华珠宝项圈白猫肖像.png",
+      "pet": "cat",
+      "title": "A softer kind of elegance",
+      "source_sha256": "841eaddcb0cfe84cf8781c339b949fd55ec77ec4471cc0913ac3bb8cf6857d4b"
+    },
+    {
+      "file": "assets/editorial/09-sleeping-together.webp",
+      "source": "佩戴珍珠蓝金项圈的安睡小狗.png",
+      "pet": "dog",
+      "title": "Safe in our world",
+      "source_sha256": "84c6f71494b16e1dc64e8914714cec6ab3d1879b7545609e6b5f8da201dcd947"
+    }
+  ],
+  "dog_scenes": 5,
+  "cat_scenes": 4,
+  "notice": "Editorial scenes are artistically generated. Actual item details represented only by original uploaded real-products photography."
+}

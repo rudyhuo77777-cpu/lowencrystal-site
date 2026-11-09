@@ -1,0 +1,107 @@
+{
+  "original_source": "LOWEN-V3-US-Luxury-DIY-Checked-Final-20261104.zip",
+  "new_version": "LOWEN-V3-US-Luxury-DIY-Corrected-20261104.zip",
+  "four_products": 4,
+  "source_product_photos": 24,
+  "diy_source_files": 20,
+  "diy_unique_photos": 18,
+  "new_images": {
+    "sleep_crop": "original sleeping scene cropped to hide any jewelry on sleeping dog; no pixels synthesized",
+    "cafe_cat": "kept earlier editorial concept, safety unverified"
+  },
+  "size_guides": {
+    "reference_A": "2.7 cm width, S 18-25 M 28-35 L 38-45 XL 48-55 cm neck",
+    "reference_B": "S 1.5cm 27-32; M 2.0cm 29-36; L 2.5cm 37-47",
+    "sku_mapping_confirmed": false
+  },
+  "safe_cat_wear_verified": false,
+  "crystal_material_verified": false,
+  "production_payment_verified": false,
+  "browser_test_environment": "Playwright Chromium with local resource-route fulfillment; actual Windows double-click not verified",
+  "browser_1440": {
+    "view": 1440,
+    "card4": 4,
+    "diy_series": 3,
+    "diy_images": 18,
+    "safety_bullets": 4,
+    "size_old_table_visible": 0,
+    "size_reference_tables": 2,
+    "size_row_a": 4,
+    "size_row_b": 3,
+    "visible_old_chinese_chart_images": 0,
+    "size_has_cat_safety_note": 1,
+    "overflow_px": 0,
+    "images_total": 56,
+    "images_broken": [],
+    "missing_paths": [],
+    "js_errors": [],
+    "languages": {
+      "中文": {
+        "lang": "zh-CN",
+        "size_text": "两套不同结构的尺码参考 · 以下数据来自两种不同的项圈结构，目前尚未确认分别对应上方哪一款商品。不能只凭 S/M/L 下单，须先核实实际颈围、宽度与连接结构。",
+        "cat_note": "猫咪佩戴提示 · 咖啡馆猫咪照片属于艺术化展示，尚未核实这款珠饰项圈具有适合猫的快脱结构。确认快脱和配件牢固性以前，不应作为猫咪正式佩戴产品销售或使用；睡觉及无",
+        "pink_title": "粉色水晶项圈",
+        "sleep_caption": "睡觉之前，记得摘下项圈。"
+      },
+      "EN": {
+        "lang": "en",
+        "size_text": "TWO DIFFERENT SIZE SYSTEMS · These reference measurements come from different co",
+        "cat_note": "CAT FIT NOTE · The styled cat photo is a concept image. No quick-release/breakaw",
+        "pink_title": "Pink Crystal Collar",
+        "sleep_caption": "Dream softly. Collar off at bedtime."
+      },
+      "ID": {
+        "lang": "id",
+        "size_text": "DUA SISTEM UKURAN BERBEDA · Data ini berasal dari dua konstruksi kalung yang bel",
+        "cat_note": "CATATAN UNTUK KUCING · Foto kucing adalah konsep visual. Mekanisme quick-release",
+        "pink_title": "Kalung Kristal Pink",
+        "sleep_caption": "Tidur nyenyak, tanpa kalung."
+      }
+    },
+    "modal_opens": 1,
+    "modal_closes": true
+  },
+  "browser_390": {
+    "view": 390,
+    "card4": 4,
+    "diy_series": 3,
+    "diy_images": 18,
+    "safety_bullets": 4,
+    "size_old_table_visible": 0,
+    "size_reference_tables": 2,
+    "size_row_a": 4,
+    "size_row_b": 3,
+    "visible_old_chinese_chart_images": 0,
+    "size_has_cat_safety_note": 1,
+    "overflow_px": 0,
+    "images_total": 56,
+    "images_broken": [],
+    "missing_paths": [],
+    "js_errors": [],
+    "languages": {
+      "中文": {
+        "lang": "zh-CN",
+        "size_text": "两套不同结构的尺码参考 · 以下数据来自两种不同的项圈结构，目前尚未确认分别对应上方哪一款商品。不能只凭 S/M/L 下单，须先核实实际颈围、宽度与连接结构。",
+        "cat_note": "猫咪佩戴提示 · 咖啡馆猫咪照片属于艺术化展示，尚未核实这款珠饰项圈具有适合猫的快脱结构。确认快脱和配件牢固性以前，不应作为猫咪正式佩戴产品销售或使用；睡觉及无",
+        "pink_title": "粉色水晶项圈",
+        "sleep_caption": "睡觉之前，记得摘下项圈。"
+      },
+      "EN": {
+        "lang": "en",
+        "size_text": "TWO DIFFERENT SIZE SYSTEMS · These reference measurements come from different co",
+        "cat_note": "CAT FIT NOTE · The styled cat photo is a concept image. No quick-release/breakaw",
+        "pink_title": "Pink Crystal Collar",
+        "sleep_caption": "Dream softly. Collar off at bedtime."
+      },
+      "ID": {
+        "lang": "id",
+        "size_text": "DUA SISTEM UKURAN BERBEDA · Data ini berasal dari dua konstruksi kalung yang bel",
+        "cat_note": "CATATAN UNTUK KUCING · Foto kucing adalah konsep visual. Mekanisme quick-release",
+        "pink_title": "Kalung Kristal Pink",
+        "sleep_caption": "Tidur nyenyak, tanpa kalung."
+      }
+    },
+    "modal_opens": 1,
+    "modal_closes": true
+  }
+}

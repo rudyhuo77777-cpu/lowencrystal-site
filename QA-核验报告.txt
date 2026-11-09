@@ -1,0 +1,23 @@
+LOWEN V3 原站保留版 验收报告
+日期：2026-10-28
+
+ORIGINAL_SITE_CODE_PRESERVED = PASS
+FOUR_NEW_PRODUCT_CARDS = PASS
+NINETEEN_SUPPLEMENTAL_PRODUCT_IMAGES = PASS
+THREE_LANGUAGES = PASS
+PRODUCT_MODAL = PASS
+ORIGINAL_GUIDES = PASS
+NO_PAGE_JS_ERRORS = PASS
+NO_HORIZONTAL_OVERFLOW = PASS
+REAL_SOURCE_IMAGE_HASHES = PASS
+OLD_STANDALONE_PRODUCT_ASSETS_REMOVED = PASS
+
+图片数量：用户对话中可读取27份JPG，SHA256证实3对完全重复，共24张不同内容照片。
+页面用图：4张主商品实拍图、1张组合专题实拍图、19张实拍图库图，共24张唯一源图片，每个源图片分配一个正式位置。
+宠物场景：5张原网站宠物场景仅颈部区域合成替换。经选定面部像素区域核对与原图相同，但合成项圈的珠粒细节仍不能当成实物保证；实物详情以真实照片为准。
+原产品：4个旧独立商品图文件已删除，6条旧产品记录被4条真实商品系列覆盖；保留五行、星座、尺码、保养、多语言和原有详情弹窗功能。
+原始网站所有实际网络收款能力未验证。本包仍是离线展示版，不代表收款功能上线。
+
+尚未满足项目要求：用户要求26张不同的商品参考图，但目前只有24张不同照片，缺2张不同内容的原始照片。任何人不能用重复照片或AI生成图冒充这2张。
+
+测试说明：由于浏览器的管理员策略禁止导航本地file与127.0.0.1地址，采用Playwright在空白页面注入同样的HTML/CSS/React脚本与本地图片数据进行隔离渲染测试；实际file://双击打开未完成实机验收。

@@ -1,0 +1,57 @@
+{
+  "baseline": "LOWEN-V3-US-Luxury-Lifestyle-DIY-Section-Fixed-v2.zip",
+  "test_method": "Chromium rendered actual app.js, lifestyle.js and CSS inside a page created without direct localhost/file navigation (which is blocked in the environment); asset paths/decoding independently verified",
+  "all_asset_images_verified_count": 63,
+  "diy_input_files": 20,
+  "diy_exact_duplicate_pairs": [
+    [
+      "diy-13.webp",
+      "diy-17.webp"
+    ],
+    [
+      "diy-15.webp",
+      "diy-19.webp"
+    ]
+  ],
+  "diy_unique_visible": 18,
+  "diy_visibility_note": "all 20 source files retained; 2 byte-identical duplicates excluded from visible series to avoid repetition",
+  "pet_scene_04": "editorial/04-coffee-companion.webp — café scene with cat, silver heart aqua beads",
+  "pet_scene_09": "editorial/09-sleeping-together.webp — sleeping dog with dark garnet and brown band",
+  "viewports": [
+    {
+      "viewport": 1440,
+      "languages_tested": [
+        "en",
+        "id",
+        "zh-CN"
+      ],
+      "diy_sections": 3,
+      "visible_diy_images": 18,
+      "size_original_table": 1,
+      "additional_sizing_images": 2,
+      "safety_bullets": 4,
+      "all_referenced_images_existing": true,
+      "modal_open_close": "passed",
+      "horizontal_overflow": false,
+      "javascript_errors": 0
+    },
+    {
+      "viewport": 390,
+      "languages_tested": [
+        "en",
+        "id",
+        "zh-CN"
+      ],
+      "diy_sections": 3,
+      "visible_diy_images": 18,
+      "size_original_table": 1,
+      "additional_sizing_images": 2,
+      "safety_bullets": 4,
+      "all_referenced_images_existing": true,
+      "modal_open_close": "passed",
+      "horizontal_overflow": false,
+      "javascript_errors": 0
+    }
+  ],
+  "limitation": "Direct file:// page loading is blocked by environment administrator; it cannot be directly verified here"
+}
