@@ -696,3 +696,6 @@ footer { padding: 80px 7vw 32px; background: #211c19; color: #fff; }
 .lw-diy-series-copy .lw-diy-price{margin-top:18px;padding-top:14px;border-top:1px solid rgba(138,114,86,.18);display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
 .lw-diy-price span{font-size:12px;letter-spacing:.08em;color:#806f62}
 .lw-diy-price strong{font:400 27px/1.25 Georgia,serif;color:#3b2923}
+
+/* Show confirmed brown DIY sizes without changing the established layout. */
+.lw-diy-sizes{margin:10px 0 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap;color:#67584b;font-size:13px;line-height:1.5}.lw-diy-sizes strong{font-size:14px;letter-spacing:.09em;color:#30231d;font-weight:700}

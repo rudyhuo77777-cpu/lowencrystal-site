@@ -5,6 +5,7 @@
   const S = 'assets/size-guide/';
   const translations = {
     en: {
+      realGalleryLabel:"THE FINISHING DETAILS",realGalleryTitle:"The details make it personal.",realGalleryBody:"Explore the color, texture and crystal accents behind each design, up close.",realColorLilac:"Lilac",realColorPink:"Pink",realColorAqua:"Aqua Blue",realColorIvory:"Ivory",diySizesLabel:"Available sizes",
       label: 'THE ART OF TOGETHERNESS', heading: 'The everyday, made extraordinary.',
       lead: 'The moments worth dressing for are rarely planned. A morning walk. A favorite corner. A coffee with someone who never leaves your side.',
       journey: 'EVERYDAY RITUALS', walkTitle: 'Every walk tells a story', walkText: 'For all the places you discover together.',
@@ -60,6 +61,7 @@
       primarySizeTitle:"Find the right fit",primarySizeText:"Measure the neck at the intended wearing position. The old generic XS–XL ranges are not validated for these new designs and must not be used to choose a size.",primarySizeAction:"Before ordering, confirm which construction and adjustable range applies to your exact collar.",sizeConflictNote:"TWO DIFFERENT SIZE SYSTEMS · These reference measurements come from different collar constructions and have not been matched to the four listed products. Do not order by S/M/L alone. Ask for confirmation of the actual neck range, width and hardware before purchasing.",sizeVisualTitle:"Reference A — 2.7 cm band",sizeVisualNote:"Neck circumference range by size; body weight is a secondary supplier reference only. Not SKU-verified.",sizeStrapTitle:"Reference B — variable-width strap",sizeStrapNote:"Different collar construction. Shows total strap length, adjustable range and width. Not interchangeable with reference A.",chartSize:"Size",chartNeck:"Neck (cm)",chartWidth:"Width",chartWeight:"Weight*",chartLength:"Total length",chartRange:"Adjustable neck (cm)",chartWeightNote:"*Weight translated from supplier reference (jin), not a safe substitute for neck measurement.",catSafetyNote:"CAT FIT NOTE · The styled cat photo is a concept image. No quick-release/breakaway mechanism has been verified for this jeweled design. Do not use it as a cat collar unless a qualified breakaway construction and securely attached accessories are confirmed. Remove decorative collars for sleep and unsupervised activity.",materialNote:"Materials and crystal composition require confirmation before purchase. Lifestyle imagery is an artistic presentation, not proof of safety or material grade."
     },
     id: {
+      realGalleryLabel:"DETAIL PILIHAN",realGalleryTitle:"Keindahan ada pada detailnya.",realGalleryBody:"Lihat pilihan warna, tekstur, dan aksen kristal dari setiap desain secara lebih dekat.",realColorLilac:"Ungu muda",realColorPink:"Merah muda",realColorAqua:"Biru aqua",realColorIvory:"Krem gading",diySizesLabel:"Ukuran tersedia",
       label:'SENI KEBERSAMAAN', heading:'Momen sehari-hari terasa istimewa.',
       lead:'Momen berharga sering datang tanpa rencana. Jalan pagi, sudut rumah favorit, atau kopi bersama sahabat kecil yang selalu menemani.',
       journey:'RITUAL SEHARI-HARI',walkTitle:'Setiap jalan punya cerita',walkText:'Untuk setiap tempat yang kalian jelajahi bersama.',
@@ -115,6 +117,7 @@
       primarySizeTitle:"Pastikan ukuran yang tepat",primarySizeText:"Ukur lingkar leher pada posisi pemakaian. Ukuran XS–XL umum dari versi lama belum diverifikasi untuk desain baru dan tidak boleh dipakai sebagai dasar pemilihan.",primarySizeAction:"Sebelum memesan, konfirmasi konstruksi dan rentang ukuran yang berlaku untuk kalung pilihanmu.",sizeConflictNote:"DUA SISTEM UKURAN BERBEDA · Data ini berasal dari dua konstruksi kalung yang belum dipetakan ke empat produk di atas. Jangan memesan hanya berdasarkan huruf S/M/L. Konfirmasi rentang leher, lebar, dan pengait untuk produk yang dipilih.",sizeVisualTitle:"Referensi A — lebar 2,7 cm",sizeVisualNote:"Rentang lingkar leher per ukuran; berat hanya referensi tambahan pemasok. Belum diverifikasi per produk.",sizeStrapTitle:"Referensi B — lebar berbeda",sizeStrapNote:"Konstruksi kalung berbeda. Menunjukkan panjang total, rentang penyesuaian, dan lebar. Tidak boleh digabungkan dengan A.",chartSize:"Ukuran",chartNeck:"Leher (cm)",chartWidth:"Lebar",chartWeight:"Berat*",chartLength:"Panjang total",chartRange:"Leher dapat disetel (cm)",chartWeightNote:"*Berat dikonversi dari referensi pemasok (jin), bukan pengganti pengukuran lingkar leher.",catSafetyNote:"CATATAN UNTUK KUCING · Foto kucing adalah konsep visual. Mekanisme quick-release/breakaway pada desain ini belum terverifikasi. Jangan digunakan untuk kucing sampai struktur breakaway dan keamanan aksesori dikonfirmasi. Lepas kalung dekoratif saat tidur dan tanpa pengawasan.",materialNote:"Komposisi material dan kristal perlu dikonfirmasi sebelum membeli. Gambar gaya hidup adalah visual artistik, bukan bukti mutu bahan atau keselamatan."
     },
     zh: {
+      realGalleryLabel:"细节之美",realGalleryTitle:"每一个细节，都有它的温柔。",realGalleryBody:"近距离欣赏每款项圈的色彩、质感与水晶装饰细节。",realColorLilac:"粉紫色",realColorPink:"粉色",realColorAqua:"浅蓝色",realColorIvory:"奶白色",diySizesLabel:"可选尺码",
       label:'相伴的艺术', heading:'让平凡日常，也值得珍藏。',
       lead:'最珍贵的时刻，往往不需要安排。一场晨间散步，一个喜欢的角落，一杯咖啡，还有始终陪在身边的它。',
       journey:'日常的小小仪式',walkTitle:'每一步，都有我们的故事',walkText:'为一起走过的每个地方留下回忆。',
@@ -221,6 +224,7 @@
           <h3 data-lw="${series.titleKey}"></h3>
           <p data-lw="${series.bodyKey}"></p>
           <p class="lw-diy-price"><span data-lw="diyPriceLabel"></span><strong data-lw="diySeries${Number(series.index)}Price"></strong></p>
+          ${series.index === "02" ? `<p class="lw-diy-sizes"><span data-lw="diySizesLabel"></span><strong>M · L · XL</strong></p>` : ""}
         </div>
         <div class="lw-diy-series-visuals">
           <figure class="lw-diy-series-hero"><img loading="eager" decoding="sync" src="${D}diy-${series.hero}.webp" alt="LOWEN DIY series visual"></figure>
@@ -274,6 +278,11 @@
         if (dict[key] && el.textContent !== dict[key]) el.textContent = dict[key];
       });
     }
+    const gallery = document.querySelector('.real-product-gallery');
+    if (gallery) gallery.querySelectorAll('[data-lw]').forEach(el => {
+      const key = el.getAttribute('data-lw');
+      if (dict[key] && el.textContent !== dict[key]) el.textContent = dict[key];
+    });
     patchSizeGuide();
   }
 
