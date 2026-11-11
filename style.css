@@ -699,3 +699,17 @@ footer { padding: 80px 7vw 32px; background: #211c19; color: #fff; }
 
 /* Show confirmed brown DIY sizes without changing the established layout. */
 .lw-diy-sizes{margin:10px 0 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap;color:#67584b;font-size:13px;line-height:1.5}.lw-diy-sizes strong{font-size:14px;letter-spacing:.09em;color:#30231d;font-weight:700}
+
+/* LOWEN 2026-11-11: three-tier size prices, without reflowing surrounding UI. */
+.series-price strong.lw-three-price-tiers,.modal-price strong.lw-three-price-tiers {
+  white-space:pre-line;
+  font-size:clamp(21px,2.25vw,27px);
+  line-height:1.42;
+  display:inline-block;
+}
+.lw-diy-price strong { white-space:pre-line; font-size:clamp(21px,2.2vw,27px); line-height:1.44; }
+.lw-diy-price { align-items:flex-start; }
+@media(max-width:600px) {
+ .series-price strong.lw-three-price-tiers,.modal-price strong.lw-three-price-tiers {font-size:23px;}
+ .lw-diy-price strong{font-size:24px;}
+}
